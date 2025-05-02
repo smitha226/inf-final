@@ -1,0 +1,43 @@
+/* Navigation Bar Styling */
+nav {
+  background-color: #f7f3ef; /* Soft parchment tone */
+  border-bottom: 1px solid #c4b7aa;
+  padding: 15px 30px;
+  font-family: 'Georgia', serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo or site name */
+nav .logo {
+  font-size: 1.5em;
+  color: #4b3a2f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navigation links */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4b3a2f;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #a67b5b; /* Muted copper accent */
+}
